@@ -1,24 +1,32 @@
+import { GoBell } from "react-icons/go";
 import Button from "./Button";
 
 const App = () => {
+    const handleClick = () => {
+        console.log("Button clicked");
+    }
+
     return (
         <div>
-            <div>
-                <Button success>
+            <div> 
+                <Button outline primary onClick={handleClick}>
+                    <GoBell />
                     Click me
                 </Button>
             </div>
             <div>
-                <Button>Buy Now</Button>
+                <Button secondary>Buy Now</Button>
             </div>
             <div>
-                <Button>See Deal</Button>
+                <Button success outline>
+                    See Deal
+                </Button>
             </div>
             <div>
-                <Button>Hide Ads</Button>
+                <Button warning>Hide Ads</Button>
             </div>
             <div>
-                <Button>See More</Button>
+                <Button danger>See More</Button>
             </div>
         </div>
     );
