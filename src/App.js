@@ -1,35 +1,25 @@
 import { GoBell } from "react-icons/go";
-import Button from "./components/Button";
+import Accordion from "./components/Accordion";
 
-const App = () => {
-    const handleClick = () => {
-        console.log("Button clicked");
-    }
-
-    return (
-        <div>
-            <div> 
-                <Button outline primary onClick={handleClick}>
-                    <GoBell />
-                    Click me
-                </Button>
-            </div>
-            <div>
-                <Button secondary>Buy Now</Button>
-            </div>
-            <div>
-                <Button success outline>
-                    See Deal
-                </Button>
-            </div>
-            <div>
-                <Button warning>Hide Ads</Button>
-            </div>
-            <div>
-                <Button danger>See More</Button>
-            </div>
-        </div>
-    );
-};
+function App() {
+    const items = [
+        {
+            id: '1',
+            label: 'Can I use React on a project?',
+            content: 'You can use React on any project you want. It is a library for building user interfaces and can be integrated into any web application.'
+        },
+        {
+            id: '2',
+            label: 'Can I use React on a project?',
+            content: 'You can use React on any project you want. It is a library for building user interfaces and can be integrated into any web application.'
+        },
+        {
+            id: '3',
+            label: 'Can I use React on a project?',
+            content: 'You can use React on any project you want. It is a library for building user interfaces and can be integrated into any web application.'
+        },
+    ]
+    return <Accordion items={items}/>;
+}
 
 export default App;
