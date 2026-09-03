@@ -10,7 +10,7 @@ function Button({
     outline,
     rounded,
 }) {
-    return <button>{children}</button>;
+    return <button className="">{children}</button>;
 }
 
 Button.propTypes = {
@@ -21,10 +21,12 @@ Button.propTypes = {
             Number(!!success) +
             Number(!!warning) +
             Number(!!danger);
-        
-            if(count > 1) {
-                return new Error('Only one of primary, secondary, success, warning, danger can be true');
-            }
+
+        if (count > 1) {
+            return new Error(
+                "Only one of primary, secondary, success, warning, danger can be true",
+            );
+        }
     },
 };
 
