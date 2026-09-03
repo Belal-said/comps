@@ -1,7 +1,7 @@
 import { GoBell } from "react-icons/go";
-import Button from "./components/Button";
+import Button from "../components/Button";
 
-const App = () => {
+const ButtonPage = () => {
     const handleClick = () => {
         console.log("Button clicked");
     }
@@ -32,4 +32,4 @@ const App = () => {
     );
 };
 
-export default App;
+export default ButtonPage;
