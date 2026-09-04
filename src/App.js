@@ -1,25 +1,20 @@
-import { GoBell } from "react-icons/go";
-import Accordion from "./components/Accordion";
+import Dropdown from "./components/DropDown";
+import { useState } from "react";
 
 function App() {
-    const items = [
-        {
-            id: '1',
-            label: 'Can I use React on a project?',
-            content: 'You can use React on any project you want. It is a library for building user interfaces and can be integrated into any web application.'
-        },
-        {
-            id: '2',
-            label: 'Can I use React on a project?',
-            content: 'You can use React on any project you want. It is a library for building user interfaces and can be integrated into any web application.'
-        },
-        {
-            id: '3',
-            label: 'Can I use React on a project?',
-            content: 'You can use React on any project you want. It is a library for building user interfaces and can be integrated into any web application.'
-        },
-    ]
-    return <Accordion items={items}/>;
+    const [selection, setSelection] = useState(null)
+
+    const handleSelect = (option) => {
+        setSelection(option)
+    }
+
+    const options = [
+        { id: "1", label: "Red", value: "red" },
+        { id: "2", label: "Green", value: "green" },
+        { id: "3", label: "Blue", value: "blue" },
+    ];
+
+    return <Dropdown options={options} value={selection} onChange={handleSelect}/>;
 }
 
 export default App;
