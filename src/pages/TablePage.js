@@ -1,4 +1,4 @@
-import Table from "../components/Table";
+import SortableTable from "../components/SortableTable";
 
 function TablePage() {
     const data = [
@@ -9,22 +9,30 @@ function TablePage() {
     ];
 
     const config = [
-        { label: "Fruits", render: (fruit) => fruit.name },
+        {
+            label: "Fruits",
+            render: (fruit) => fruit.name,
+            sortValue: (fruit) => fruit.name,
+        },
         {
             label: "Color",
             render: (fruit) => <div className={`p-3 m-2 ${fruit.color}`}></div>,
         },
-        { label: "Score", render: (fruit) => fruit.score },
+        {
+            label: "Score",
+            render: (fruit) => fruit.score,
+            sortValue: (fruit) => fruit.score
+        },
     ];
 
     // key function to put in mapping to work with all types of data.
     const keyFn = (fruit) => {
-        return fruit.name
-    }
+        return fruit.name;
+    };
 
     return (
         <div>
-            <Table data={data} config={config} keyFn={keyFn}/>
+            <SortableTable data={data} config={config} keyFn={keyFn} />
         </div>
     );
 }
