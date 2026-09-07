@@ -6,7 +6,7 @@ function Sidebar({token}) {
     const [active, setActive] = useState(false);
 
     const links = [
-        { label: "Login", path: "/login" },
+        // { label: "Login", path: "/login" },
         { label: "Dropdown", path: "/" },
         { label: "Accordion", path: "/accordion" },
         { label: "Buttons", path: "/buttons" },

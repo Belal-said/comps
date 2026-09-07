@@ -6,14 +6,14 @@ import DropdonwPage from "./pages/DropdownPage";
 import ButtonPage from "./pages/ButtonPage";
 import ModalPage from "./pages/ModalPage";
 import TablePage from "./pages/TablePage";
-// import LoginPage from "./pages/LoginPage";
+import LoginPage from "./pages/LoginPage";
 
 function App() {
-    // const [token, setToken] = useState("");
+    const [token, setToken] = useState("");
 
-    // const handleLogout = () => {
-    //     setToken('')
-    // }
+    const handleLogout = () => {
+        setToken('')
+    }
 
 
     const app = <div className="container mx-auto grid grid-cols-6 gap-4 mt-4">
@@ -35,12 +35,11 @@ function App() {
                 <Route path="/table">
                     <TablePage />
                 </Route>
-                {/* <button onClick={handleLogout}>logout</button> */}
+                <button onClick={handleLogout}>logout</button>
             </div>
         </div>
 
-    // return token ? app : <LoginPage token={token} setToken={setToken} />;
-    return app;
+    return token ? app : <LoginPage token={token} setToken={setToken} />;
 }
 
 export default App;
