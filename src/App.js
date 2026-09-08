@@ -8,6 +8,7 @@ import ModalPage from "./pages/ModalPage";
 import TablePage from "./pages/TablePage";
 import LoginPage from "./pages/LoginPage";
 import CounterPage from "./pages/CounterPage";
+import ReduxLearnPage from './pages/ReduxLearnPage'
 
 function App() {
     // const [token, setToken] = useState("");
@@ -38,6 +39,9 @@ function App() {
                 </Route>
                 <Route path="/counter" >
                     <CounterPage />
+                </Route>
+                <Route path="/redux" >
+                    <ReduxLearnPage />
                 </Route>
                 {/* <button onClick={handleLogout}>logout</button> */}
             </div>
