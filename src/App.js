@@ -7,6 +7,7 @@ import ButtonPage from "./pages/ButtonPage";
 import ModalPage from "./pages/ModalPage";
 import TablePage from "./pages/TablePage";
 import LoginPage from "./pages/LoginPage";
+import CounterPage from "./pages/CounterPage";
 
 function App() {
     // const [token, setToken] = useState("");
@@ -34,6 +35,9 @@ function App() {
                 </Route>
                 <Route path="/table" >
                     <TablePage />
+                </Route>
+                <Route path="/counter" >
+                    <CounterPage />
                 </Route>
                 {/* <button onClick={handleLogout}>logout</button> */}
             </div>
