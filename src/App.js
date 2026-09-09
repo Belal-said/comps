@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './style.css'
 import Sidebar from "./components/Sidebar";
 import Route from "./components/Route";
 import AccordionPage from "./pages/AccordionPage";
