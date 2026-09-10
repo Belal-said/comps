@@ -32,3 +32,19 @@ h3 {
 .container > button {
     margin-top: 10px;
 }
+
+.button {
+    color: white;
+    padding: 0.6rem 0.6rem;
+    margin: 0.6rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.is-danger {
+    background-color: rgb(215, 40, 40);
+}
+
+.is-link {
+    background-color: rgb(40, 110, 215);
+}
