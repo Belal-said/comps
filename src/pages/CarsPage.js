@@ -5,7 +5,7 @@ import CarValue from "../components/cars/CarValue";
 
 function CarsPage() {
     return (
-        <div>
+        <div className="container is-fluid">
             <CarForm />
             <CarSearch />
             <CarList />
