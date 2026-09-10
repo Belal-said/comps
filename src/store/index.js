@@ -10,5 +10,4 @@ const store = configureStore({
     },
 });
 
-export { store, reset };
-export { addSong, removeSong, addMovie, removeMovie };
+export { store, reset, addSong, removeSong, addMovie, removeMovie };
