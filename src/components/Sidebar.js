@@ -14,6 +14,7 @@ function Sidebar({token}) {
         { label: "Table", path: "/table" },
         { label: "Counter", path: "/counter" },
         { label: "Redux", path: "/redux" },
+        { label: "Cars", path: "/cars" },
     ];
 
     const renderedLinks = links.map((link) => {

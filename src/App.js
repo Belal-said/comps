@@ -10,6 +10,7 @@ import TablePage from "./pages/TablePage";
 import LoginPage from "./pages/LoginPage";
 import CounterPage from "./pages/CounterPage";
 import ReduxLearnPage from './pages/ReduxLearnPage'
+import CarsPage from "./pages/CarsPage";
 
 function App() {
     // const [token, setToken] = useState("");
@@ -43,6 +44,9 @@ function App() {
                 </Route>
                 <Route path="/redux" >
                     <ReduxLearnPage />
+                </Route>
+                <Route path="/cars" >
+                    <CarsPage />
                 </Route>
                 {/* <button onClick={handleLogout}>logout</button> */}
             </div>
