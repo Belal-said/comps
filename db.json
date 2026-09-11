@@ -1,5 +1,151 @@
 {
-    "users": [],
-    "albums": [],
-    "photos": []
+  "users": [
+    {
+      "id": "1",
+      "name": "Myra"
+    },
+    {
+      "name": "Alysa Buckridge MD",
+      "id": "VSBqk-PcFbU"
+    },
+    {
+      "name": "Lempi McDermott",
+      "id": "WPrm3RzMPag"
+    },
+    {
+      "name": "Margot Baumbach DDS",
+      "id": "uGxk591z11U"
+    },
+    {
+      "name": "Webster Stark",
+      "id": "hdhG17SLlgo"
+    },
+    {
+      "name": "Ahmad Gleichner",
+      "id": "NR_LngOzivo"
+    },
+    {
+      "name": "Dean Stiedemann",
+      "id": "g-QohBjE6c4"
+    },
+    {
+      "name": "Rolando Koepp",
+      "id": "VuQVx0Rh8Pw"
+    },
+    {
+      "name": "Brycen Corwin",
+      "id": "lh_xDZfo2no"
+    },
+    {
+      "name": "Rudy Huels",
+      "id": "wYy7Z0BJEGE"
+    },
+    {
+      "name": "Autumn Nader",
+      "id": "z077FTTQWTQ"
+    },
+    {
+      "name": "Madelynn Hansen",
+      "id": "ox79gMDkrI4"
+    },
+    {
+      "name": "Rene Wiegand",
+      "id": "TFe43uFRUrs"
+    },
+    {
+      "name": "Linnie Gleason",
+      "id": "w53fkzBiTfo"
+    },
+    {
+      "name": "Janae Kunze",
+      "id": "uGyB_hdpWME"
+    },
+    {
+      "name": "Dr. Camilla Lang",
+      "id": "eZb96yBPIqw"
+    },
+    {
+      "name": "Jermain Carroll",
+      "id": "nKQ3qRDlMLE"
+    },
+    {
+      "name": "Noel Price",
+      "id": "TIwEGsQbrL0"
+    },
+    {
+      "name": "Gerard Sauer",
+      "id": "xpHIrsnW_2E"
+    },
+    {
+      "name": "Shanny Gerhold PhD",
+      "id": "dU_PTPtJdNc"
+    },
+    {
+      "name": "Dr. Audreanne Bashirian",
+      "id": "eOoaQIAee8w"
+    },
+    {
+      "name": "Webster Kemmer",
+      "id": "q6ib5ER81vc"
+    },
+    {
+      "name": "Nya Rolfson",
+      "id": "x5u1xxE5poM"
+    },
+    {
+      "name": "Brady Hintz IV",
+      "id": "_kflDSP67H8"
+    },
+    {
+      "name": "Leon Lakin Sr.",
+      "id": "NSqLrTQlqzk"
+    },
+    {
+      "name": "Shawn Johnson",
+      "id": "C8qfPIxV6DQ"
+    },
+    {
+      "name": "Elbert Lindgren",
+      "id": "vqDG-xphtXk"
+    },
+    {
+      "name": "Jacky Reinger",
+      "id": "A9Trpe2Sols"
+    },
+    {
+      "name": "Mr. Adriel Mills",
+      "id": "HRvUwUI0yFE"
+    },
+    {
+      "name": "Antone Franey",
+      "id": "154qGMWkDKg"
+    },
+    {
+      "name": "Graham Schroeder",
+      "id": "NA_vFA30mh0"
+    },
+    {
+      "name": "Mrs. Jill Funk",
+      "id": "2tg8sr1AhcU"
+    },
+    {
+      "name": "Darwin Schuster",
+      "id": "dWcjiiYa354"
+    },
+    {
+      "name": "Duane Boehm",
+      "id": "yakC8F7NN-Q"
+    },
+    {
+      "name": "Lucio Collier Sr.",
+      "id": "ocVfGYiEBjg"
+    },
+    {
+      "name": "Reilly Schimmel",
+      "id": "ZRqbQu_-hpg"
+    }
+  ],
+  "albums": [],
+  "photos": [],
+  "$schema": "./node_modules/json-server/schema.json"
 }

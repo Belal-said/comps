@@ -12,7 +12,7 @@ import {
     removeCar,
     changeSearchTerm,
 } from "./slices/CarControlSlice";
-import { useReducer } from "./slices/usersSlice";
+import { usersReducer } from "./slices/usersSlice";
 import { reset } from "./actions";
 
 const store = configureStore({
@@ -21,7 +21,7 @@ const store = configureStore({
         movies: moviesReducer,
         carForm: carFormReducer,
         carControl: carControlReducer,
-        users: useReducer
+        users: usersReducer
     },
 });
 
@@ -38,3 +38,6 @@ export {
     removeCar,
     changeSearchTerm,
 };
+
+export * from './thunks/fetchUsers'
+export * from './thunks/postUser'
